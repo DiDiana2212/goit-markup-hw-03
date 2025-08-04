@@ -228,6 +228,9 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
+.item-team:first-child {
+  width: calc((100% - 72px) / 4);
+}
 
 .item-team:last-child {
   margin-right: 0;
