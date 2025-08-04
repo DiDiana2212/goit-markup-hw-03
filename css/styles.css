@@ -253,7 +253,6 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -281,6 +280,7 @@ img {
 
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -290,4 +290,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
