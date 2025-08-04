@@ -213,6 +213,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 .title-portfolio {
   text-align: center;
@@ -240,6 +241,12 @@ img {
 }
 .portfolio-team {
   background-color: #fff;
+  padding: 120px 0 120px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 .title-our {
   font-size: 36px;
@@ -248,6 +255,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .title-portfolio {
   font-weight: 500;
