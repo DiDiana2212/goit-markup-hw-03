@@ -183,6 +183,7 @@ a {
 }
 .section-team {
   background: #f4f4fd;
+  padding: 120px 0 120px;
 }
 .secondary-title {
   font-size: 36px;
@@ -191,6 +192,11 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.list-team {
+  display: flex;
+  gap: 24px;
 }
 .team-title {
   font-weight: 500;
@@ -201,6 +207,11 @@ a {
 }
 .item-team {
   background-color: #ffffff;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
+.item-team:last-child {
+  margin-right: 0;
 }
 .team-text {
   font-weight: 400;
