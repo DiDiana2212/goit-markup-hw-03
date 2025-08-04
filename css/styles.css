@@ -194,6 +194,14 @@ a {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+.section-team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
 .list-team {
   display: flex;
   gap: 24px;
@@ -204,11 +212,20 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+}
+.title-portfolio {
+  text-align: center;
+  margin-top: 8px;
+}
+.team-member {
+  padding: 32px 0;
 }
 .item-team {
   background-color: #ffffff;
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .item-team:last-child {
   margin-right: 0;
@@ -219,6 +236,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 .portfolio-team {
   background-color: #fff;
