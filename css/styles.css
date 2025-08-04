@@ -224,9 +224,8 @@ img {
 }
 .item-team {
   background-color: #ffffff;
-  margin-right: 24px;
-  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .item-team:first-child {
   width: calc((100% - 72px) / 4);
